@@ -1,2 +1,12 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+section.signup
+  .container
+    .row
+      .col-sm-4.col-sm-offset-4
+        form#signup(action="" method='post')
+          .form-group
+            input.form-control(type="text" name="username" value="" placeholder="username")
+          .form-group
+            input.form-control(type="text" name="email" value="" placeholder="email")
+          .form-group
+            input.form-control(type="password" name="password" value="" placeholder="password")
+          input#submit.btn.btn-primary(type="submit" value="Go!")
