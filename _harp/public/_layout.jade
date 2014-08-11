@@ -1,0 +1,12 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="#{ base_url }assets/css/app.css")
+  body
+    != yield
+
+    footer
+
+    script(src="#{ base_url }assets/_bower/jquery/dist/jquery.min.js").
+    script(src="#{ base_url }assets/_bower/bootstrap/dist/bootstrap.min.js").
+    script(src="#{ base_url }assets/js/app.js").
